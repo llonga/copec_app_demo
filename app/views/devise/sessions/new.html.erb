@@ -1,8 +1,7 @@
 <h1>Ingresa a la nueva aplicaciòn de Copec</h1>
 
 
-<div class="container"
-
+<div class="container">
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="form-group">
@@ -23,7 +22,7 @@
   <% end %>
 
   <div class="actions">
-    <%= f.submit "Ingresar", class: 'btn-primary' %>
+    <%= f.submit "Ingresar", class: 'btn btn-primary' %>
   </div>
 
 <% end %>
